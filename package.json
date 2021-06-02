@@ -1,0 +1,23 @@
+{
+  "name": "tdd-training",
+  "version": "1.0.0",
+  "description": "## 기술스펙 ### 0. 파일명과 구조 - 루트 폴더 아래에 stringCalculator.js를 생성한다. - stringCalculator.js 는 add 메소드를 갖는 객체를 export 한다. `module.exports = { add }` - 사용할때는 `const { add } = require('./stringCalculator');` 로 import 한다.",
+  "main": "stringCalculator.spec.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/80xer/tdd-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/80xer/tdd-training/issues"
+  },
+  "homepage": "https://github.com/80xer/tdd-training#readme",
+  "devDependencies": {
+    "jest": "^27.0.3"
+  }
+}
